@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Botao extends StatefulWidget {
   final texto;
   final corBackground;
-  final corFonte;
+  final corFont;
   final funcao;
 
   const Botao(
