@@ -17,7 +17,7 @@ class _TelaInicialState extends State<TelaPrincipal> {
 
   void HG() async {
     final String urlHgFinance =
-        'https://api.hgbrasil.com/finance?format=json-cors&key=6c677801';
+        'https://api.hgbrasil.com/finance?format=json-cors&key=86decab5';
     Response resposta = await get(Uri.parse(urlHgFinance));
     Map insere = json.decode(resposta.body);
     setState(() {
